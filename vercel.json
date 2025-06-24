@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "BUILD_TOOLS_INSTALLED": "true"
+    },
+    "beforeBuild": [
+      "apk add --no-cache wget"
+    ]
+  }
+}
